@@ -21,10 +21,28 @@ description: >- # this means to ignore newlines until "baseurl:"
     and a splash of electrical theory adapts software to reality.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "drewgwallace.com" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
+
+# social links
+#twitter_username: jekyllrb
 github_username:  drewgwallace
+rss: rss
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
 linkedin_username: drewgwallace
-# rss: rss
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# googleplus_username: +jekyll
+
+# Mastodon instances
+# mastodon:
+# - username: jekyll
+#   instance: example.com
+# - username: jekyll2
+#   instance: example.com
+
+show_excerpts: false # set to true to show excerpts on the homepage
 
 timezone: America/Los_Angeles
 
@@ -37,9 +55,9 @@ plugins:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
+exclude:
+  - Gemfile
+  - Gemfile.lock
 #   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
