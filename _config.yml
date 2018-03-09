@@ -16,7 +16,7 @@
 title: Drew G. Wallace
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Security concious, practical, and sometimes unconventional problem solver.
+  Security conscious, practical, and sometimes unconventional problem solver.
   Specializing in Linux systems, networking appliances,
     and a splash of electrical theory adapts software to reality.
 baseurl: "" # the subpath of your site, e.g. /blog
