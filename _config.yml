@@ -21,10 +21,10 @@ description: >- # this means to ignore newlines until "baseurl:"
     and a splash of electrical theory adapts software to reality.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "drewgwallace.com" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
+# twitter_username: jekyllrb
 github_username:  drewgwallace
 linkedin_username: drewgwallace
-rss: rss
+# rss: rss
 
 timezone: America/Los_Angeles
 
