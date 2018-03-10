@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Drew G. Wallace
-author: daw
-email: daw
+author:  
+email:  
 description: >- # this means to ignore newlines until "baseurl:"
   Security conscious, practical, and sometimes unconventional problem solver.
   Specializing in Linux systems, networking appliances,
@@ -31,7 +31,7 @@ github_username:  drewgwallace
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jekyll
-linkedin_username: drewgwallace
+# linkedin_username: drewgwallace
 # pinterest_username: jekyll
 # youtube_username: jekyll
 # googleplus_username: +jekyll
@@ -45,8 +45,8 @@ linkedin_username: drewgwallace
 
 # show_excerpts: false # set to true to show excerpts on the homepage
 
-timezone: America/Los_Angeles
-future: true
+# timezone: America/Los_Angeles
+# future: true
 
 # Build settings
 markdown: kramdown
