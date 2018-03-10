@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Drew G. Wallace
-author: " "
+author: " ."
 email: " a"
 description: >- # this means to ignore newlines until "baseurl:"
   Security conscious, practical, and sometimes unconventional problem solver.
