@@ -25,7 +25,7 @@ url: "drewgwallace.com" # the base hostname & protocol for your site, e.g. http:
 # social links
 #twitter_username: jekyllrb
 github_username:  drewgwallace
-rss: rss
+# rss: rss
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
@@ -42,9 +42,10 @@ linkedin_username: drewgwallace
 # - username: jekyll2
 #   instance: example.com
 
-show_excerpts: false # set to true to show excerpts on the homepage
+# show_excerpts: false # set to true to show excerpts on the homepage
 
 timezone: America/Los_Angeles
+future: true
 
 # Build settings
 markdown: kramdown
@@ -56,8 +57,8 @@ plugins:
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 #exclude:
-#  - Gemfile
-#  - Gemfile.lock
+ - Gemfile
+ - Gemfile.lock
 #   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
