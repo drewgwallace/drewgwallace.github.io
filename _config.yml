@@ -25,7 +25,7 @@ url: "drewgwallace.com" # the base hostname & protocol for your site, e.g. http:
 # social links
 #twitter_username: jekyllrb
 github_username:  drewgwallace
-rss: rss
+# rss: rss
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
