@@ -22,7 +22,7 @@ layout: default
           </a>
         </h3>
         <h4>
-          {{ post.category | escape }}
+          {{page.categories | capitalize | join: ', '}}
         </h4>
         {% if site.show_excerpts %}
           {{ post.excerpt }}
