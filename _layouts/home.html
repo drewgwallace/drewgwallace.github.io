@@ -21,6 +21,9 @@ layout: default
             {{ post.title | escape }}
           </a>
         </h3>
+        <h4>
+          {{ post.category | escape }}
+        </h4>
         {% if site.show_excerpts %}
           {{ post.excerpt }}
         {% endif %}
