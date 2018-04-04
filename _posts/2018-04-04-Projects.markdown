@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Projects"
-categories: projects
-url:/projects
+categories: site_map
+permalink: /projects/
 ---
 
   {% if site.posts.size > 0 %}
