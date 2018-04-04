@@ -9,8 +9,7 @@ permalink: /projects/
   {% if site.posts.size > 0 %}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts2" }}</h2>
     <ul class="post-list">
-      {% for post in site.posts %}
-      {% if 'projects' in post.categories %}
+      {% for post in site.posts.categories.projects %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }} {{ post.categories | capitalize | join: ', ' }}</span>
@@ -23,7 +22,6 @@ permalink: /projects/
           {{ post.excerpt }}
         {% endif %}
       </li>
-      {% endif %}
       {% endfor %}
     </ul>
 
