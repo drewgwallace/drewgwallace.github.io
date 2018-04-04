@@ -1,17 +1,17 @@
 ---
 layout: post
 title:  "Projects"
-permalink: /projects/
 ---
 
 <div class="project">
 
   {% if site.posts.size > 0 %}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Posts2" }}</h2>
     <ul class="post-list">
       {% for post in site.categories.projects %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <span class="post-meta">{{ post.date | date: date_format }} {{ post.categories | capitalize | join: ', ' }}</span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
