@@ -46,7 +46,7 @@ linkedin_username: drewgwallace
 # show_excerpts: false # set to true to show excerpts on the homepage
 
 # timezone: America/Los_Angeles
-# future: true
+future: true
 
 # Build settings
 markdown: kramdown
