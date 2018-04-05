@@ -2,7 +2,7 @@
 layout: post
 title:  "Null Client configuration"
 date:   2018-04-04 11:42:58 -0800
-categories: projects guides test
+categories: projects
 ---
 
 <html lang="en">
