@@ -50,7 +50,7 @@ future: true
 
 # Build settings
 markdown: kramdown
-#theme: minima
+theme: minima
 plugins:
   - jekyll-feed
 
