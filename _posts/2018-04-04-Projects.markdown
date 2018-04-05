@@ -8,7 +8,7 @@ permalink: /projects/
 
   {% if site.posts.size > 0 %}
     <ul class="post-list">
-    {{ lower(page.title) }} abcd {{ page.title |lower }}
+    {{ page.title | upper }} abcd {{ page.title |lower }}
       {% for post in site.categories.{{ page.title }} %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
