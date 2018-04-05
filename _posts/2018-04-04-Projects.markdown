@@ -1,6 +1,0 @@
----
-layout: simpyll
-title:  "Projects"
-permalink: /projects/
----
-
