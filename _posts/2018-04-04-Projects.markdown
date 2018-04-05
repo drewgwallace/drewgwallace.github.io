@@ -1,5 +1,5 @@
 ---
-layout: nav
+layout: simpyll
 title:  "Projects"
 permalink: /projects/
 ---
