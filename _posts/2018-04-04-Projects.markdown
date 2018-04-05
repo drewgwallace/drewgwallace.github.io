@@ -12,6 +12,10 @@ permalink: /projects/
     {% assign page_title = page.title | downcase %}
     abs
     {{ page_title }}
+    {{ site.categories.get(page_title) }}
+    abcd
+    {{ site.categories.[page_title] }}
+
       {% for post in site.categories.get(page_title) %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
