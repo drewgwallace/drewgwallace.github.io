@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default_alt
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -13,11 +13,10 @@ layout: default
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
-    {% include sub.html %}
   </div>
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
   {% endif %}
 
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  <a class="u-url" href="{{ page.url | relative_url }}"></a>
 </article>
