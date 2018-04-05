@@ -1,5 +1,5 @@
 ---
-layout: nav
+layout: dynamic
 title:  "Projects"
 permalink: /projects/
 ---

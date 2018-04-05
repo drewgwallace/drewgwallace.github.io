@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<h1>{{page.test}}</h1>
+
+{% assign pageCategories = page.categories | join ' ' | append: ' '%}
+{% assign pageCategoriesSize = page.categories.size %}
+<h1>{{ cat }}</h1>
+<ul>
+	{% for post in site.posts %}
+		{% assign postCategories = '' %}
+		{% for thispostcat in post.categories limit: pageCategoriesSize %}
+			{% assign postCategories = postCategories | append: thispostcat %}
+			{% assign postCategories = postCategories | append: ' ' %}
+		{% endfor %}
+		<ul>
+		{% if (postCategories == pageCategories) %}
+		<li>
+			<a href="{{ post.url }}" >[{{ post.thumbnail }}]</a>
+			<a class="title" href="{{ post.url }}" >{{ post.title }}</a>
+		</li>
+		{% endif %}
+		</ul>
+	{% endfor %}
+</ul>
