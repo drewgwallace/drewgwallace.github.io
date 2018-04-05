@@ -13,8 +13,8 @@ layout: default
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
+    {% include sub.html %}
   </div>
-  {% include sub.html %}
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
   {% endif %}
