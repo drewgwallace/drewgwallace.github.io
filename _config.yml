@@ -21,11 +21,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   Specializing in Linux systems, networking appliances,
     and a splash of electrical theory adapts software to reality.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "www.drewgwallace.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "drewgwallace.com" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:categories/:title:output_ext
 # social links
 #twitter_username: jekyllrb
-github_username:  drewgwallace
+github_username: drewgwallace
 # rss: rss
 # dribbble_username: jekyll
 # facebook_username: jekyll
