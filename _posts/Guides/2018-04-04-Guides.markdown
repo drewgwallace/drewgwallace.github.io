@@ -1,5 +1,5 @@
 ---
-layout: nav
+layout: midpoint
 title:  "Guides"
 permalink: /guides/
 ---
