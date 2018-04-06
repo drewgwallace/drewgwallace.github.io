@@ -1,7 +1,7 @@
 ---
 layout: nav
 title:  "Linux"
-permalink: /guides/networking
+permalink: /guides/networking/
 ---
 
 {% if site.posts.size > 0 %}
