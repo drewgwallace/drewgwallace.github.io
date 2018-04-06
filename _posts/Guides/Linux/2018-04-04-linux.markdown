@@ -1,11 +1,12 @@
 ---
 layout: nav
 title:  "Linux"
-permalink: /guides/linux
+permalink: /guides/linux/
 ---
 
 <div class="linux">
    
+  <h1> Recent Guides </h1>
   {% if site.posts.size > 0 %}
     <ul class="post-list">
       {% assign page_title = page.title | downcase %}
@@ -25,7 +26,6 @@ permalink: /guides/linux
       {% endfor %}
     </ul>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {% endif %}
   
 
