@@ -4,7 +4,7 @@ title:  "Guides"
 permalink: /guides/
 ---
 
-<div class="project">
+<div class="guides">
 
   <a class="post-link" href="/guides/linux/">Linux</a>
   <a class="post-link" href="/guides/networking/">Networking</a>
