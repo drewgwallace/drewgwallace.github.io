@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 ---
+
+{% include head.html %}
+
 {% assign page_depth = page.url | split: '/' | size %}
 {% assign page_parent = page.url | split: '/' | last %}
 {% for node in site.pages offset:1 %}
