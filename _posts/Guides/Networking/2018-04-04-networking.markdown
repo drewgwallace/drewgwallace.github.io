@@ -1,6 +1,6 @@
 ---
 layout: nav
-title:  "Linux"
+title:  "Networking"
 permalink: /guides/networking/
 ---
 
