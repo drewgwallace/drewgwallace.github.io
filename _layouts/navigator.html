@@ -4,7 +4,6 @@ layout: nav
 
 {% if site.posts.size > 0 %}
 <ul class="post-list">
-  <a class="u-url" href="..\" >up</a>
   {% assign page_title = page.title | downcase %}
   {% for post in site.categories.[page_title] %}
 	<li>
