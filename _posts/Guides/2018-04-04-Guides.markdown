@@ -8,7 +8,7 @@ permalink: /guides/
 
   <a class="post-link" href="/guides/linux/">Linux</a>
   <a class="post-link" href="/guides/networking/">Networking</a>
-  <a class="post-link" href="/guides/networking/">Networking</a>  
+  <a class="post-link" href="/guides/windows/">Windows</a>  
 
 
 </div>
