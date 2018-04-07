@@ -11,7 +11,8 @@ layout: page_layout
   {% assign item_url = item.url | split: '/' %}
   {% assign item_url_size = item_url | size | minus: 2 %}
   {% assign item_subdir = item_url[item_url_size] %}
-  item: subdir {{ item_subdir }}
+  <br> 
+  item_title: {{ item.title }} <br> item subdir: {{ item_subdir }}
   {% if item.url contains page_subdir and item.url != page.url %}
 	  <h2>{{ item.title }}</h2>
 	  <p>{{ item.description }}</p>
