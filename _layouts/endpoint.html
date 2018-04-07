@@ -15,7 +15,7 @@ layout: page_layout
   {% if page_url_subdir_size == item_url_size and item.slug == "index" %}
 	<h2>
       <a class="item-link" href="{{ item.url | relative_url }}">
-        {{ page_curdir }}/{{ item.title | escape }}
+        {{ page.title }}: {{ item.title | escape }}
       </a>
 	</h2>
   {% endif %}
