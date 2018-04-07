@@ -2,6 +2,9 @@
 layout: page_layout
 ---
 
+{% set list = page.url.split('/') %}
+{{ list[0] }}
+
 {{ page | inspect }}
 
 {% for item in site.[page.collection] %}
