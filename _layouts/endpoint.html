@@ -23,13 +23,12 @@ layout: page_layout
 
 
 <table border="1">
-  <tr>
 	{% for item in site.[page.collection] %}
 	  {% assign item_url = item.url | split: '/' %}
 	  {% assign item_url_size_minus_2 = item_url | size | minus: 2 %}
 	  {% assign item_curdir = item_url[item_url_size_minus_2] %}  
 	  {% if item_curdir contains page_curdir and item.url != page.url %}
-		<td>
+		<tr>
             <li>
               {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
               <span class="item-meta">{{ item.date | date: date_format }}</span>
@@ -39,10 +38,9 @@ layout: page_layout
                 </a>
               </h3>
             </li>
-		</td>
+		</tr>
 	  {% endif %}
 	{% endfor %}
-  </tr>
 </table>
 
 
