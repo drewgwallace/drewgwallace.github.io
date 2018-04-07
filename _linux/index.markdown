@@ -1,7 +1,6 @@
 ---
 layout: midpoint
 title:  "Guides"
-permalink: /guides/linux/
 ---
 
 <div class="guides">

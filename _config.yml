@@ -75,3 +75,7 @@ collections:
   apple:
     output: true
     permalink: /:collection/:path
+    
+  linux:
+    output: true
+    permalink: /:collection/:path
