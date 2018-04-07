@@ -7,6 +7,7 @@ page_:url {{ page.url }}
 {% assign alist = page.url | split: '/' %}
 list0: {{ alist items=0 }}
 list1: {{ alist[1]
+listsize: {{ alist | size }}
 <br>
 {{ page | inspect }}
 
