@@ -1,5 +1,5 @@
 ---
-layout: coll_endpoint
+layout: endpoint
 title:  "12345"
 ---
 
