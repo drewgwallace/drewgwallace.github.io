@@ -1,5 +1,5 @@
 ---
 layout: endpoint
-title:  "Linux"
+title:  "Grafana & InfluxDB & Telegraf"
 permalink: /guides/linux/grafana_influxdb_telegraf/
 ---
