@@ -1,5 +1,5 @@
 ---
-layout: midpoint
+layout: endpoint
 title:  "Guides"
 ---
 
