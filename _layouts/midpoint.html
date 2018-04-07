@@ -2,7 +2,7 @@
 layout: page_layout
 ---
 
-{% set list = page.url.split('/') %}
+{% sign list = page.url | split: '/' %}
 list0: {{ list[0] }}
 
 {{ page | inspect }}
