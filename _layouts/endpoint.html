@@ -11,9 +11,13 @@ post dir: {{ page_url[page_url_size] }}
 <br>
 page_urlsize: {{ page_url_size }}
 <br>
+{% assign page_subdir = page_url[page_url_size] %}
+
 
 {% for item in site.[page.collection] %}
-  <h2>{{ item.title }}</h2>
-  <p>{{ item.description }}</p>
-  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+  {% if item contains page_subdir %}
+	  <h2>{{ item.title }}</h2>
+	  <p>{{ item.description }}</p>
+	  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+  {% endif %}
 {% endfor %}
