@@ -72,6 +72,6 @@ collections:
     output: true
     permalink: /:collection/:path
     
-  1234:
+  apple:
     output: true
     permalink: /:collection/:path
