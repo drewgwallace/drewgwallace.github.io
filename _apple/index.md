@@ -1,5 +1,5 @@
 ---
 layout: coll_endpoint
-title:  "1234"
+title:  "12345"
 ---
 
