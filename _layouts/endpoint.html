@@ -12,7 +12,7 @@ layout: page_layout
   {% assign item_url_size = item_url | size | minus: 2 %}
   {% assign item_subdir = item_url[item_url_size] %}
   <br> 
-  item_title: {{ item.title }} <br> item subdir: {{ item_subdir }}
+  item_title: {{ item.title }} <br> item subdir: {{ item_subdir }} <br> current to page length: {{ page_url | size }} | {{ item_url | size }}
   {% if item_subdir contains page_subdir and item.url != page.url %}
 	  <h2>{{ item.title }}</h2>
 	  <p>{{ item.description }}</p>
