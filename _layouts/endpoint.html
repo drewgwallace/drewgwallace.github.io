@@ -24,8 +24,9 @@ layout: page_layout
 	  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
   {% endif %}
   
-  {% assign item_url_size = item_url | size %}
-  {% if page_url_subdir_size == page_curdir %}
+  {% assign item_url_size = item_url | size %} <br>
+  page subdir size: {{ page_url_subdir_size }} item dir size {{ item_url_size }} <br>
+  {% if page_url_subdir_size == item_url_size %}
 	  <h2>{{ item.title }}</h2>
 	  <p>{{ item.description }}</p>
 	  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
