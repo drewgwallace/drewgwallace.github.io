@@ -5,16 +5,6 @@ date:   2018-04-07
 ---
 
 
-<div class="container" id="page-show">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="page-content">
-
-                <div ng-non-bindable>
-
-    <h1 id="bkmrk-page-title" class="float left">Process - Install and configure Telegraf for InfluxDB</h1>
-
-    <div style="clear:left;"></div>
 
             <p id="bkmrk-this-is-to-describe-">This is to describe configuring telegraf output plugins to communicate with an InfluxDB database</p>
 <p id="bkmrk-firstly-add-the-pack">Firstly add the package repository and install telegraf</p>
@@ -27,9 +17,3 @@ date:   2018-04-07
 <pre id="bkmrk-less-%2Fvar%2Flog%2Fsyslog">less /var/log/syslog # Debian/Ubuntu command<br>less /var/log/messages #RHEL/CentOS</pre>
 <p id="bkmrk-also%2C-inspect-the-in">Also, inspect the InfluxDB database, an example command to check that values are being recorded<br><code><a href="mailto:host@host:~%24">host@host:~$</a> influx #enter the database</code><br><code>&gt; use &lt;<strong>database name</strong>&gt; #select the database to use</code></p>
 <pre id="bkmrk-%3E-select-last%28uptime">&gt; select last(uptime_format) from system where host =~ /^<strong>&lt;host originating telegraf metrics&gt;</strong>$/</pre>
-    </div>
-                <hr>
-            </div>
-        </div>
-    </div>
-</div>
