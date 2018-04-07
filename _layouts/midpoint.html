@@ -3,8 +3,10 @@ layout: page_layout
 ---
 
 page_:url {{ page.url }}
+<br>
 {% assign alist = page.url | split: '/' %}
 list0: {{ alist items=0 }}
+list1: {{ alist[1]
 <br>
 {{ page | inspect }}
 
