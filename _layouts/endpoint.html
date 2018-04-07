@@ -8,30 +8,32 @@ layout: page_layout
 
 {% assign page_url_subdir_size = page_url | size | plus: 1 %}
 
-
+<h1> SubCategories: </h1>
 {% for item in site.[page.collection] %}
+  {% assign item_url = item.url | split: '/' %}
+  {% assign item_url_size = item_url | size %}
+  {% assign item_subdir = item_url[item_url_size] %}
+  {% if page_url_subdir_size == item_url_size and item.slug == "index" %}
+	  <h2>{{ item.title }}</h2>
+	  <p>{{ item.description }}</p>
+	  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+  {% endif %}
+{% endfor %}
 
+
+<h1> Posts: </h1>
+{% for item in site.[page.collection] %}
   {% assign item_url = item.url | split: '/' %}
   {% assign item_url_size_minus_2 = item_url | size | minus: 2 %}
-  {% assign item_curdir = item_url[item_url_size_minus_2] %}
-  {% assign item_subdir = item_url[item_url_size] %}
-  <br> 
-  item_title: {{ item.title }} <br> item subdir: {{ item_curdir }} <br> current to page length: {{ page_url | size }} | {{ item_url | size }}
-  
-  <h1> Posts: </h1>
+  {% assign item_curdir = item_url[item_url_size_minus_2] %}  
   {% if item_curdir contains page_curdir and item.url != page.url %}
 	  <h2>{{ item.title }}</h2>
 	  <p>{{ item.description }}</p>
 	  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
   {% endif %}
   
-  <h1> SubCategories: </h1>
-  {% assign item_url_size = item_url | size %} <br>
-  page subdir size: {{ page_url_subdir_size }} item dir size {{ item_url_size }} <br>
-  {% if page_url_subdir_size == item_url_size and item.slug == "index" %}
-	  <h2>{{ item.title }}</h2>
-	  <p>{{ item.description }}</p>
-	  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
-  {% endif %}
-
 {% endfor %}
+
+
+
+
