@@ -1,4 +1,4 @@
 ---
 layout: endpoint
-title:  "Linux"
+title:  "Grafana & InfluxDB & Telegraf"
 ---
