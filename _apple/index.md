@@ -1,7 +1,6 @@
 ---
 layout: midpoint
 title:  "1234"
-permalink: /1234/index.html
 ---
 
 {% for item in site.apple %}
