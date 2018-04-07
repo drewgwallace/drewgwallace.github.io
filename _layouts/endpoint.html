@@ -28,7 +28,7 @@ layout: page_layout
 	  {% assign item_url_size_minus_2 = item_url | size | minus: 2 %}
 	  {% assign item_curdir = item_url[item_url_size_minus_2] %}  
 	  {% if item_curdir contains page_curdir and item.url != page.url %}
-		<tr>
+		<tr style="outline: thin solid">
             <li>
               {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
               <span class="item-meta">{{ item.date | date: date_format }}</span>
