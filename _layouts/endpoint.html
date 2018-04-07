@@ -6,6 +6,7 @@ layout: page_layout
 {{ page.collection }} 123
 {{ my_collection }} 1234
 {{ site.get(page.collection) }} 1245
+{{ site.[page.collection] }} 12457
 
 {% for item in site.['my_collection'] %}
   <h2>{{ item.title }}</h2>
