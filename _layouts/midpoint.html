@@ -5,7 +5,9 @@ layout: page_layout
 {{ page | inspect }}
 
 {% for item in site.[page.collection] %}
-  <h2>{{ item.title }}</h2>
-  <p>{{ item.description }}</p>
-  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+  {% if item.slug contains "index" %}
+	  <h2>{{ item.title }}</h2>
+	  <p>{{ item.description }}</p>
+	  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+  {% endif %}
 {% endfor %}
