@@ -71,3 +71,7 @@ collections:
   pages:
     output: true
     permalink: /:collection/:path
+    
+  1234:
+    output: true
+    permalink: /:collection/:path
