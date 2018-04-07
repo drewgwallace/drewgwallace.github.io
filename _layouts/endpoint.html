@@ -5,7 +5,7 @@ layout: page_layout
 {% assign my_collection = page.my_collection | downcase %}
 {{ page.collection }} 123
 {{ my_collection }} 1234
-{{ site.['my_collection'] }} 1245
+{{ site.get(page.collection) }} 1245
 
 {% for item in site.['my_collection'] %}
   <h2>{{ item.title }}</h2>
