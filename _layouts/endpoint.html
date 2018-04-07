@@ -2,12 +2,10 @@
 layout: page_layout
 ---
 {% assign page_url = page.url | split: '/' %}
-{% assign page_url_size = page_url | size %}
+{% assign page_url_size = page_url | size | minux: 1 %}
 post url: {{ page.url }}
 <br>
-{% assign page_url_less: page_url_size | minus: 1 %}
 <br>
-less: {{ page_url_less }}
 <br>
 post dir: {{ page_url[0] }}
 <br>
