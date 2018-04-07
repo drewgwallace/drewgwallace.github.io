@@ -68,5 +68,5 @@ exclude:
 
 
 collections:
-  - 1234:
-      output: true
+  1234:
+    output: true
