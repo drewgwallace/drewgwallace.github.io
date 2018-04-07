@@ -2,9 +2,9 @@
 layout: page_layout
 ---
 
-{% assign list = page.url | split: '/' %}
-list0: {{ list[0] }}
-
+{% assign alist = page.url | split: '/' %}
+list0: {{ alist items=0 }}
+<br>
 {{ page | inspect }}
 
 {% for item in site.[page.collection] %}
