@@ -7,21 +7,17 @@ layout: page_layout
 {% assign page_curdir = page_url[page_url_curdir_size] %}
 {% assign page_url_subdir_size = page_url | size | plus: 1 %}
 
-<h1> SubCategories: </h1>
+
 {% for item in site.[page.collection] %}
   {% assign item_url = item.url | split: '/' %}
   {% assign item_url_size = item_url | size %}
   {% assign item_subdir = item_url[item_url_size] %}
   {% if page_url_subdir_size == item_url_size and item.slug == "index" %}
-	<li>
-	  {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-	  <span class="item-meta">{{ item.date | date: date_format }}</span>
-	  <h3>
-		<a class="item-link" href="{{ item.url | relative_url }}">
-		  {{ item.title | escape }}
-		</a>
-	  </h3>
-	</li>
+	<h2>
+      <a class="item-link" href="{{ page_curdir }}/{{ item.url | relative_url }}">
+        {{ item.title | escape }}
+      </a>
+	</h2>
   {% endif %}
 {% endfor %}
 
