@@ -2,9 +2,11 @@
 layout: page_layout
 ---
 
+{% assign my_collection = page.my_collection | downcase %}
+
 {{ my_collection }} 1234
 
-{% for item in site['my_collection'] %}
+{% for item in site.collection['my_collection'] %}
   <h2>{{ item.title }}</h2>
   <p>{{ item.description }}</p>
   <p><a href="{{ item.url }}">{{ item.title }}</a></p>
