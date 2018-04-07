@@ -68,5 +68,5 @@ exclude:
 
 
 collections:
-  guides
+  1234
     output: true
