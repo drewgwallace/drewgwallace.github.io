@@ -5,7 +5,11 @@ layout: page_layout
 {% assign page_url_size = page_url | size %}
 post url: {{ page.url }}
 <br>
-post dir: {{ page_url[page_url_size - 1] }}
+{% assign page_url_less: page_url_size - 1 %}
+<br>
+less: {{ page_url_less }}
+<br>
+post dir: {{ page_url[] }}
 <br>
 page_urlsize: {{ page_url_size }}
 <br>
