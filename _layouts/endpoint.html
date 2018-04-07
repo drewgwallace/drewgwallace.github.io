@@ -27,11 +27,6 @@ ul{
         padding:20px;
 }
 
-<ul>
-  <li>hey</li>
-  <li>hey</li>
-  <li>hey</li>
-</ul>
 
 <table border="1">
   <tr>
@@ -40,15 +35,17 @@ ul{
 	  {% assign item_url_size_minus_2 = item_url | size | minus: 2 %}
 	  {% assign item_curdir = item_url[item_url_size_minus_2] %}  
 	  {% if item_curdir contains page_curdir and item.url != page.url %}
-		<li>
-		  {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-		  <span class="item-meta">{{ item.date | date: date_format }}</span>
-		  <h3>
-			<a class="item-link" href="{{ item.url | relative_url }}">
-			  {{ item.title | escape }}
-			</a>
-		  </h3>
-		</li>
+		<td>
+            <li>
+              {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+              <span class="item-meta">{{ item.date | date: date_format }}</span>
+              <h3>
+                <a class="item-link" href="{{ item.url | relative_url }}">
+                  {{ item.title | escape }}
+                </a>
+              </h3>
+            </li>
+		</td>
 	  {% endif %}
 	{% endfor %}
   </tr>
