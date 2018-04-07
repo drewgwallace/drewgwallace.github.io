@@ -26,7 +26,7 @@ layout: page_layout
   
   {% assign item_url_size = item_url | size %} <br>
   page subdir size: {{ page_url_subdir_size }} item dir size {{ item_url_size }} <br>
-  {% if page_url_subdir_size == item_url_size %}
+  {% if page_url_subdir_size == item_url_size and item.slug == "index" %}
 	  <h2>{{ item.title }}</h2>
 	  <p>{{ item.description }}</p>
 	  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
