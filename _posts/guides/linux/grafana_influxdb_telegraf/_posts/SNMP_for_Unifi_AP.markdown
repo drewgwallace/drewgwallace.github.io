@@ -2,7 +2,7 @@
 layout: post
 title:  "Process - SNMP for Unifi AP"
 date:   2018-04-07
-categories: guides linux Grafana_InfluxDB_Telegraf
+categories: guides linux grafana_influxdb_telegraf
 ---
 
 <html lang="en">
