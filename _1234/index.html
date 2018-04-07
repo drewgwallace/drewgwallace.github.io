@@ -1,14 +1,11 @@
 ---
 layout: midpoint
-title:  "Guides"
-permalink: /guides/
+title:  "1234"
+permalink: /1234/index.html
 ---
 
-<div class="guides">
-
-  <a class="post-link" href="/guides/linux/">Linux</a>
-  <a class="post-link" href="/guides/networking/">Networking</a>
-  <a class="post-link" href="/guides/windows/">Windows</a>  
-
-
-</div>
+{% for item in site.my_collection %}
+  <h2>{{ item.title }}</h2>
+  <p>{{ item.description }}</p>
+  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+{% endfor %}
