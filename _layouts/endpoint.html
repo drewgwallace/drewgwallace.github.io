@@ -1,7 +1,11 @@
 ---
 layout: page_layout
 ---
-{{ page | inspect }}
+{% assign page_url = page.url | split: '/' %}
+{% assign page_url_size = page_url | size %}
+post url: {{ page.url }}
+post dir: {{ page_url[page_url_size - 1] }}
+
 
 {% for item in site.[page.collection] %}
   <h2>{{ item.title }}</h2>
