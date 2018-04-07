@@ -67,7 +67,3 @@ exclude:
 #   - vendor/ruby/
 
 
-collections:
-  1234:
-    output: true
-    permalink: /:collection/:path
