@@ -15,7 +15,7 @@ page_urlsize: {{ page_url_size }}
 
 
 {% for item in site.[page.collection] %}
-  {% if item contains page_subdir %}
+  {% if item.url contains page_subdir %}
 	  <h2>{{ item.title }}</h2>
 	  <p>{{ item.description }}</p>
 	  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
