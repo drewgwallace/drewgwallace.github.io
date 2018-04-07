@@ -1,4 +1,4 @@
 ---
-layout: endpoint
+layout: midpoint
 title:  "test"
 ---

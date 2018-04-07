@@ -1,0 +1,27 @@
+---
+layout: page_layout
+---
+
+page_:url {{ page.url }}
+<br>
+{% assign alist = page.url | split: '/' %}
+list0: {{ alist items=0 }}
+list1: {{ alist[1] }}
+listsize: {{ alist | size }}
+<br>
+{% for word in alist %}
+  word: {{ word }}
+{% endfor %}
+
+<br>
+{{ page | inspect }}
+
+{% for item in site.[page.collection] %}
+  {% if item.path != page.path %}
+    {% if item.slug contains "index" %}
+	  <h2>{{ item.title }}</h2>
+	  <p>{{ item.description }}</p>
+	  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+    {% endif %}
+  {% endif %}
+{% endfor %}
