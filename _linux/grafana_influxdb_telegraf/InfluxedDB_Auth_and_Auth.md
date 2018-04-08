@@ -2,7 +2,6 @@
 layout: post
 title:  "Process - InfluxDB Authentication and Authorization"
 date:   2018-04-07
-categories: guides linux grafana_influxdb_telegraf
 ---
 
 

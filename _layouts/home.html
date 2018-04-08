@@ -4,10 +4,19 @@ layout: default
 
 <div class="home">
 
-  <a class="post-link" href="/projects/">Projects</a>
-  <a class="post-link" href="/guides/">Guides</a>
-  {{ site.collections }} 1234
-  {{ site.apple.pages }}
+{% for item in site.[page.collection] %}
+  {% assign item_url = item.url | split: '/' %}    
+  {% assign item_url_size_minus_3 = item_url | size | minus: 3 %}
+  {% assign item_url_super_dir = item_url[item_url_size_minus_3] %}
+
+  {% if page_curdir == item_url_super_dir and item.slug == "index" %}
+	<h2>
+      <a class="item-link" href="{{ item.url | relative_url }}">
+        {{ item.title | escape }}
+      </a>
+	</h2>
+  {% endif %}
+{% endfor %}
  
   
 </div>
