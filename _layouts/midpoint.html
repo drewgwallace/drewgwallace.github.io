@@ -12,6 +12,15 @@ layout: page_layout
   {% assign item_url = item.url | split: '/' %}
   {% assign item_url_size = item_url | size %}
   {% assign item_subdir = item_url[item_url_size] %}
+  
+  
+  
+  {% assign item_curdir = item_url[page_url_curdir_size] %}
+  <br>
+  page url: {{ page_url[page_url_curdir_size] }} <br>
+  item url: {{ item_url[item_url_size] }} <br>
+
+
   {% if page_url_subdir_size == item_url_size and item.slug == "index" %}
 	<h2>
       <a class="item-link" href="{{ item.url | relative_url }}">
