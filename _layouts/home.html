@@ -14,7 +14,7 @@ layout: default
 3{{ page_curdir }} <br>
 4{{page_url_subdir_size }} <br>
 
-{% for item in site.[page.collection] %}
+{% for item in site.collections %}
   {% assign item_url = item.url | split: '/' %}    
   {% assign item_url_size_minus_3 = item_url | size | minus: 3 %}
   {% assign item_url_super_dir = item_url[item_url_size_minus_3] %}
