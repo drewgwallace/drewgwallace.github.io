@@ -9,10 +9,10 @@ layout: default
 {% assign page_curdir = page_url[page_url_curdir_size] %}
 {% assign page_url_subdir_size = page_url | size | plus: 1 %}
 
-{{ page_url }}
-{{ page_url_curdir_size }}
-{{ page_curdir }}
-{{page_url_subdir_size }}
+1{{ page_url }}
+2{{ page_url_curdir_size }}
+3{{ page_curdir }}
+4{{page_url_subdir_size }}
 
 {% for item in site.[page.collection] %}
   {% assign item_url = item.url | split: '/' %}    
