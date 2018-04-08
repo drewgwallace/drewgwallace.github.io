@@ -9,19 +9,9 @@ layout: page_layout
 
 
 {% for item in site.[page.collection] %}
-  {% assign item_url = item.url | split: '/' %}
-  {% assign item_url_size = item_url | size %}
-  {% assign item_subdir = item_url[item_url_size] %}
-  
-  
+  {% assign item_url = item.url | split: '/' %}    
   {% assign item_url_size_minus_3 = item_url | size | minus: 3 %}
   {% assign item_url_super_dir = item_url[item_url_size_minus_3] %}
-
-  item title: {{ item.title }}
-  <br>
-  page url: {{ page_url[page_url_curdir_size] }} <br>
-  item url: {{ item_url[item_url_size_minus_3] }} <br>
-
 
   {% if page_curdir == item_url_super_dir and item.slug == "index" %}
 	<h2>
