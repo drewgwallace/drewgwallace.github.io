@@ -15,7 +15,7 @@ layout: default
 4{{page_url_subdir_size }} <br>
 
 {% for item in site.collections %}
-item: {{ item }}
+item: {{ item | inspect }}
 {% endfor %}
 
 
