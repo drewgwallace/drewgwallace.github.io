@@ -6,8 +6,8 @@ layout: default
 
 {% for item in site.collections %}
   <h2>
-    <a class="item-link" href="{{ item.label | relative_url }}">
-      {{ item.label | downcase | escape }}
+    <a class="item-link" href="{{ item.label | downcase | relative_url }}">
+      {{ item.label | escape }}
     </a>
   </h2>
 {% endfor %} 
