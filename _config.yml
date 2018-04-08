@@ -68,9 +68,6 @@ exclude:
 
 
 collections:
-  pages:
-    output: true
-    permalink: /:collection/:path
     
   apple:
     output: true

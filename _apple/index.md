@@ -1,5 +1,4 @@
 ---
-layout: endpoint
+layout: midpoint
 title:  "12345"
-my_collection: apple
 ---
