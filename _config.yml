@@ -68,14 +68,14 @@ exclude:
 
 
 collections:
-  Pages:
+  pages:
     output: true
     permalink: /:collection/:path
     
-  Apple:
+  apple:
     output: true
     permalink: /:collection/:path
     
-  Linux:
+  linux:
     output: true
     permalink: /:collection/:path
