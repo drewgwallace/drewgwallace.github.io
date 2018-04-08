@@ -15,7 +15,12 @@ layout: default
 4{{page_url_subdir_size }} <br>
 
 {% for item in site.collections %}
-item: {{ item | inspect }}
+  <h2>
+    <a class="item-link" href="{{ item.label | relative_url }}">
+      {{ item.label | escape }}
+    </a>
+  </h2>
+
 {% endfor %}
 
 
