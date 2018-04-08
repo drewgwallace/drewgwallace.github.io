@@ -4,42 +4,12 @@ layout: default
 
 <div class="home">
 
-{% assign page_url = page.url | split: '/' %}
-{% assign page_url_curdir_size = page_url | size | minus: 2 %}
-{% assign page_curdir = page_url[page_url_curdir_size] %}
-{% assign page_url_subdir_size = page_url | size | plus: 1 %}
-
-1{{ page_url }} <br>
-2{{ page_url_curdir_size }} <br>
-3{{ page_curdir }} <br>
-4{{page_url_subdir_size }} <br>
-
 {% for item in site.collections %}
   <h2>
     <a class="item-link" href="{{ item.label | relative_url }}">
       {{ item.label | escape }}
     </a>
   </h2>
-
-{% endfor %}
-
-
-{% for item in site.collections %}
-  {% assign item_url = item.url | split: '/' %}    
-  {% assign item_url_size_minus_3 = item_url | size | minus: 3 %}
-  {% assign item_url_super_dir = item_url[item_url_size_minus_3] %}
-
-  item url: {{ item_url }} <br>
-  item_url_size_minus_3 {{ item_url_size_minus_3 }} <br>
-  
-  {% if page_curdir == item_url_super_dir and item.slug == "index" %}
-	<h2>
-      <a class="item-link" href="{{ item.url | relative_url }}">
-        {{ item.title | escape }}
-      </a>
-	</h2>
-  {% endif %}
-{% endfor %}
- 
+{% endfor %} 
   
 </div>
