@@ -78,5 +78,5 @@ collections:
     permalink: /:collection/:path
     
   resume:
-    output: false
+    output: true
 
