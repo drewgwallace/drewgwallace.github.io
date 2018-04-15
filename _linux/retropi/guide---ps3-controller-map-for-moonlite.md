@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "PS3 Controller Map for Moonlite"
+date:   2018-04-14
 last_updated: 2018-04-15
-date:   2018-04-13
 ---
 
 <p id="bkmrk-when-starting-games-">When starting games through moonlite it will need it's own mapping that is outside of EmulationStation / RetroPi,<br>to do this we create a mapping and reference the file in our moonlite execution like this:</p>
