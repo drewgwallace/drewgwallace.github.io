@@ -2,6 +2,7 @@
 layout: post
 title:  "Process - Install Moonlite on RetroPi"
 date:   2018-04-15
+last_updated: 2018-04-15
 ---
 
 <p id="bkmrk-edit-%2Fetc%2Fapt%2Fsource">Edit /etc/apt/sources.list</p>
