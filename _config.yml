@@ -69,7 +69,7 @@ exclude:
 
 collections:
     
-  apple:
+  website:
     output: true
     permalink: /:collection/:path
     
