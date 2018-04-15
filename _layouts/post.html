@@ -7,6 +7,10 @@ layout: default_off_home
   <header class="post-header">
     <a class="u-url" href="./" >(up)</a><br>
 	{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+	{% capture pagedate %}{{ page.date | date: '%s' }}{% endcapture %}
+	{% capture pageupdated %}{{ page.last_updated | date: '%s' }}{% endcapture %}
+	{{ pagedate }}
+	{{ pageupdated }}
 	<span class="item-meta">Created: {{ page.date | date: date_format   }}  {% if page.last_updated != page.date %} | Last Updated: {{ page.last_updated | date: date_format }}{% endif %}
  </span>
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
