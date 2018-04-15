@@ -76,3 +76,7 @@ collections:
   linux:
     output: true
     permalink: /:collection/:path
+    
+  resume:
+  output: false
+
