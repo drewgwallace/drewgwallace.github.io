@@ -4,7 +4,6 @@ title:  "Process - Install Bacula Client from apt-get - Ubuntu/Debian"
 date:   2018-04-15
 ---
 
-<h2 id="bkmrk-ubuntu" class="sectionedit8">Ubuntu</h2>
 <pre class="code" id="bkmrk-sudo-apt-get-install">  sudo apt-get install bacula-fd</pre>
 <pre class="code" id="bkmrk-sudo-vi-%2Fetc%2Fbacula%2F">sudo vi /etc/bacula/bacula-fd.conf</pre>
 <p id="bkmrk-sample-bacula-fd.con">Sample Bacula-fd.conf</p>
