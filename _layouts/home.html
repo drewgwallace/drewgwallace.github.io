@@ -5,11 +5,13 @@ layout: default
 <div class="home">
 
 {% for item in site.collections %}
-  <h2>
-    <a class="item-link" href="{{ item.label | downcase | relative_url }}">
-      {{ item.label | capitalize | escape }}
-    </a>
-  </h2>
+  {% if item.label != "posts" %}
+	  <h2>
+		<a class="item-link" href="{{ item.label | downcase | relative_url }}">
+		  {{ item.label | capitalize | escape }}
+		</a>
+	  </h2>
+	{% endif %}
 {% endfor %} 
   
 </div>
