@@ -31,7 +31,7 @@ title:  "Website"
       <li>
         <h3>
           <a class="item-link" href="https://jekyllrb.com/docs/permalinks/">
-          Collections
+          Permalinks
           </a>
         </h3>
       </li>
