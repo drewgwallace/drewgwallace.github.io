@@ -5,7 +5,7 @@ layout: default_off_home
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <a class="u-url" href="../" >(up)</a>
+    <a class="u-url" href="../" >(up)</a>  <span class="item-meta">Created: {{ item.date | date: date_format }}  Last Updated: {{ item.last_updated | default('item.date') | date: date_format }} </span>
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
       {% if page.author %}
