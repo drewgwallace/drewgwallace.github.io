@@ -11,7 +11,7 @@ layout: default_off_home
 	{% capture pageupdated %}{{ page.last_updated | date: '%s' }}{% endcapture %}
 	{{ pagedate }}
 	{{ pageupdated }}
-	<span class="item-meta">Created: {{ page.date | date: date_format   }}  {% if page.last_updated != page.date %} | Last Updated: {{ page.last_updated | date: date_format }}{% endif %}
+	<span class="item-meta">Created: {{ page.date | date: date_format   }}  {% if pagedate != pageupdated %} | Last Updated: {{ page.last_updated | date: date_format }}{% endif %}
  </span>
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
