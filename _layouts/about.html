@@ -2,7 +2,7 @@
 layout: default_off_home
 ---
 
-abcd
+abcde
 
 <!-- https://github.com/jglovier/resume-template/blob/gh-pages/_data/experience.yml -->
 {% for job in site.resume.experience %}
@@ -12,3 +12,5 @@ abcd
   <p class="resume-item-copy">{{ job.summary }}</p>
 </div><!-- end of resume-item -->
 {% endfor %}
+
+{{ content }}
