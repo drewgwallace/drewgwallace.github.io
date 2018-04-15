@@ -481,5 +481,3 @@ bacula-base@bacula-base:/opt/bacula/etc$</pre>
 <div id="bkmrk-%C2%A0-3" class="secedit editbutton_section editbutton_5"> </div>
 <p id="bkmrk-%C2%A0-4"> </p>
 <p id="bkmrk-%C2%A0-7"> </p>
-    </div>
-                <hr>

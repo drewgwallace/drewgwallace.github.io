@@ -82,5 +82,3 @@ sudo chmod 755 /etc/init.d/bacula*
   #this should put you into a postgres command prompt 
   #bacula=&gt; \q #quit the prompt</pre>
 <p id="bkmrk-go-on-to-edit-the-%2Fe">Go on to edit the /etc/bacula/*.conf files as usual</p>
-    </div>
-                <hr>

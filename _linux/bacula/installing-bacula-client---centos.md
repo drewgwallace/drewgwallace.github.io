@@ -16,5 +16,3 @@ date:   2018-04-15
 <p id="bkmrk-you-will-also-need-t">You will also need to add the IPTables rules</p>
 <pre class="code" id="bkmrk-iptables--i-input-1-">  iptables -I INPUT 1 -p tcp --dport 9102 -j ACCEPT
   /sbin/service iptables save</pre>
-    </div>
-                <hr>

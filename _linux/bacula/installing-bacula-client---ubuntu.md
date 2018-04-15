@@ -54,17 +54,3 @@ Messages {
   director = bacula-base-dir = all, !skipped, !restored
 }</pre>
 <div id="bkmrk-%C2%A0-8" class="secedit editbutton_section editbutton_9"> </div>
-    </div>
-                <hr>
-
-                <p class="text-muted small">
-            Created 1 year ago by <a href='http://wiki/user/1'>Admin</a>
-        <br>
-            Updated 1 year ago by <a href='http://wiki/user/1'>Admin</a>
-    </p>
-            </div>
-        </div>
-    </div>
-</div>
-</body>
-</html>
