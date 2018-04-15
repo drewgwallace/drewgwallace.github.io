@@ -4,7 +4,7 @@ title:  "Process - Install Bacula Storage Daemon - Raspberry Pi / Debian based s
 date:   2018-04-15
 ---
 
-            <h1 id="bkmrk-installing-storage-d" class="sectionedit11">Installing Storage Daemon</h1>
+<h1 id="bkmrk-installing-storage-d" class="sectionedit11">Installing Storage Daemon</h1>
 <p id="bkmrk-wget-http%3A%2F%2Fdownload-0">wget <a class="urlextern" title="http://downloads.sourceforge.net/project/bacula/bacula/7.4.1/bacula-7.4.1.tar.gz" href="http://downloads.sourceforge.net/project/bacula/bacula/7.4.1/bacula-7.4.1.tar.gz" rel="nofollow">http://downloads.sourceforge.net/project/bacula/bacula/7.4.1/bacula-7.4.1.tar.gz</a> <br> tar -xf bacula-7.4.1.tar.gz</p>
 <pre class="code" id="bkmrk-%23for-postgres-sudo-a">#for Postgres
 sudo apt-get install build-essential gcc postgresql postgresql-server-dev-all

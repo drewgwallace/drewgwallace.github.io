@@ -5,7 +5,7 @@ date:   2018-04-07
 ---
 
 
-            <p id="bkmrk-this-is-to-describe-">This is to describe configuring telegraf output plugins to communicate with an InfluxDB database</p>
+<p id="bkmrk-this-is-to-describe-">This is to describe configuring telegraf output plugins to communicate with an InfluxDB database</p>
 <p id="bkmrk-firstly-add-the-pack">Firstly add the package repository and install telegraf</p>
 <pre id="bkmrk-sudo-apt-get-install">source /etc/lsb-release<br>echo "deb https://repos.influxdata.com/${DISTRIB_ID,,} ${DISTRIB_CODENAME} stable" | tee -a /etc/apt/sources.list<br>curl -sL https://repos.influxdata.com/influxdb.key | apt-key add -<br>sudo apt-get update<br>sudo apt-get install telegraf</pre>
 <p id="bkmrk-for-a-basic-setup-on">For a basic setup only a few lines will need to be modified in /etc/telegraf/telegraf.conf , you will find them in the "output plugins" section, most other options are optional</p>

@@ -6,7 +6,7 @@ date:   2018-04-15
 
 
 
-            <p id="bkmrk-7.2.x-documentation"><a class="urlextern" title="http://www.bacula.org/7.2.x-manuals/en/main/index.html" href="http://www.bacula.org/7.2.x-manuals/en/main/index.html" rel="nofollow">7.2.X Documentation</a></p>
+<p id="bkmrk-7.2.x-documentation"><a class="urlextern" title="http://www.bacula.org/7.2.x-manuals/en/main/index.html" href="http://www.bacula.org/7.2.x-manuals/en/main/index.html" rel="nofollow">7.2.X Documentation</a></p>
 <div id="bkmrk-%C2%A0" class="secedit editbutton_section editbutton_1"> </div>
 <h2 id="bkmrk-on-ubuntu-16.04lts-f" class="sectionedit2">On Ubuntu 16.04LTS from Source</h2>
 <pre class="code" id="bkmrk-wget-http%3A%2F%2Fdownload">  wget http://downloads.sourceforge.net/project/bacula/bacula/7.4.1/bacula-7.4.1.tar.gz

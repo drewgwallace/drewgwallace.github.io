@@ -6,7 +6,7 @@ date:   2018-04-07
 
 
 
-            <p id="bkmrk-wget-sources-from-th">wget sources from these locations<br><a href="https://grafana.com/grafana/download">https://grafana.com/grafana/download<br>https://portal.influxdata.com/downloads</a></p>
+<p id="bkmrk-wget-sources-from-th">wget sources from these locations<br><a href="https://grafana.com/grafana/download">https://grafana.com/grafana/download<br>https://portal.influxdata.com/downloads</a></p>
 <p id="bkmrk-better-yet%2C-add-thes">Better yet, add these to /etc/apt/sources.list as root by running</p>
 <pre id="bkmrk-source-%2Fetc%2Flsb-rele"><code>source /etc/lsb-release<br>echo "deb https://repos.influxdata.com/${DISTRIB_ID,,} ${DISTRIB_CODENAME} stable" | tee -a /etc/apt/sources.list
 echo "deb https://packagecloud.io/grafana/stable/debian/ jessie main" | tee -a /etc/apt/sources.list</code></pre>
