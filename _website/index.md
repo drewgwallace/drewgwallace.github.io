@@ -2,7 +2,7 @@
 layout: page_layout
 title:  "Website"
 ---
-<table border="1" padding-left="10px">
+<table border="1">
   <tr>
     <td>
     <h2>
@@ -21,27 +21,29 @@ title:  "Website"
       Learn more about Jekyll in the docs
       </a>
     </h2>
-      <li>
-        <h3>
-          <a class="item-link" href="https://jekyllrb.com/docs/installation/">
-          Installation
-          </a>
-        </h3>
-      </li>    
-      <li>
-        <h3>
-          <a class="item-link" href="https://jekyllrb.com/docs/permalinks/">
-          Permalinks
-          </a>
-        </h3>
-      </li>
-      <li>
-        <h3>
-          <a class="item-link" href="https://jekyllrb.com/docs/collections/">
-          Collections
-          </a>
-        </h3>
-      </li>
+      <ul padding-left="10px">
+        <li>
+          <h3>
+            <a class="item-link" href="https://jekyllrb.com/docs/installation/">
+            Installation
+            </a>
+          </h3>
+        </li>    
+        <li>
+          <h3>
+            <a class="item-link" href="https://jekyllrb.com/docs/permalinks/">
+            Permalinks
+            </a>
+          </h3>
+        </li>
+        <li>
+          <h3>
+            <a class="item-link" href="https://jekyllrb.com/docs/collections/">
+            Collections
+            </a>
+          </h3>
+        </li>
+      </ul>
     </td>
   </tr>
 
