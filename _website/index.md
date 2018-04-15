@@ -19,7 +19,7 @@ title:  "Website"
       Learn more about Jekyll in the docs
       </a>
     </h2>
-      <ul compact>
+      <ul style="line-height: 80%">
         <li>
           <h3>
             <a class="item-link" href="https://jekyllrb.com/docs/installation/">
