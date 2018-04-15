@@ -21,7 +21,7 @@ title:  "Website"
       Learn more about Jekyll in the docs
       </a>
     </h2>
-      <ul padding-left="10px">
+      <ul>
         <li>
           <h3>
             <a class="item-link" href="https://jekyllrb.com/docs/installation/">
