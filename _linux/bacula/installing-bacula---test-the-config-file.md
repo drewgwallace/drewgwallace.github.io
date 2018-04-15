@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Installing Baula - Configuration file tests"
+title:  "Process - Install Baula - Configuration file tests"
 date:   2018-04-15
 ---
 

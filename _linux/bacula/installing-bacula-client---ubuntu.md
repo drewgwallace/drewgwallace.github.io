@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Installing Bacula Client from apt-get - Ubuntu/Debian"
+title:  "Process - Install Bacula Client from apt-get - Ubuntu/Debian"
 date:   2018-04-15
 ---
 

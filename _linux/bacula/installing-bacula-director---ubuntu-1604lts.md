@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Installing Bacula Director from Source on Ubuntu 16.04"
+title:  "Process - Install Bacula Director from Source on Ubuntu 16.04"
 date:   2018-04-15
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Installing Bacula Storage Daemon - Raspberry Pi / Debian based systems"
+title:  "Process - Install Bacula Storage Daemon - Raspberry Pi / Debian based systems"
 date:   2018-04-15
 ---
 
