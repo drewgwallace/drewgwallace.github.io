@@ -5,7 +5,7 @@ date:   2018-04-07
 ---
 
 
-            <p id="bkmrk-https%3A%2F%2Fdocs.influxd"><a href="https://docs.influxdata.com/influxdb/v1.3/query_language/authentication_and_authorization/">https://docs.influxdata.com/influxdb/v1.3/query_language/authentication_and_authorization/</a></p>
+<p id="bkmrk-https%3A%2F%2Fdocs.influxd"><a href="https://docs.influxdata.com/influxdb/v1.3/query_language/authentication_and_authorization/">https://docs.influxdata.com/influxdb/v1.3/query_language/authentication_and_authorization/</a></p>
 <p id="bkmrk-from-the-influx-cli-">From the influx cli use these commands to create a new admin user</p>
 <pre id="bkmrk-create-user-%3Cusernam"><code>CREATE USER &lt;username&gt; WITH PASSWORD '&lt;password&gt;' WITH ALL PRIVILEGES<br>#or<br>GRANT ALL PRIVILEGES TO &lt;username&gt;<br></code></pre>
 <p id="bkmrk-%C2%A0for-a-standard-use"> For a standard user</p>
