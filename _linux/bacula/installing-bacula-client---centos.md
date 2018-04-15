@@ -4,7 +4,7 @@ title:  "Process - Install Bacula Client from yum - Centos/RHEL"
 date:   2018-04-15
 ---
 
-<h1 id="bkmrk-page-title" class="float left">Installing Bacula Client - CentOS</h1>
+<h1 id="bkmrk-page-title" class="float left">CentOS 7</h1>
 
 <div style="clear:left;"></div>
 
