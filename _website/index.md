@@ -54,14 +54,4 @@ title:  "Website"
     </h2>
     </td>
   </tr>
-
-  <tr>
-    <td>
-    <h2>
-      <a class="item-link" href="https://jekyllrb.com/docs/collections/">
-      The real power of Jekyll on this website comes from Collections, a must-have!
-      </a>
-    </h2>
-    </td>
-  </tr>
 </table>
