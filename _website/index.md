@@ -12,8 +12,6 @@ title:  "Website"
     </h2>
     </td>
   </tr>
-
-
   <tr>
     <td>
     <h2>
@@ -21,7 +19,7 @@ title:  "Website"
       Learn more about Jekyll in the docs
       </a>
     </h2>
-      <ul>
+      <ul compact>
         <li>
           <h3>
             <a class="item-link" href="https://jekyllrb.com/docs/installation/">
