@@ -2,6 +2,7 @@
 layout: post
 title:  "Process - Install Baula - Configuration file tests"
 date:   2018-04-15
+last_updated: 2018-04-15
 ---
 
 <h1 id="bkmrk-test-the-config-file" class="sectionedit10">Test the Config File</h1>

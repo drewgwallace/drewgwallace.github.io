@@ -2,6 +2,7 @@
 layout: post
 title:  "Process - Install Bacula Client from yum - Centos/RHEL"
 date:   2018-04-15
+last_updated: 2018-04-15
 ---
 
 

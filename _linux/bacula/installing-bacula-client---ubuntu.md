@@ -2,6 +2,7 @@
 layout: post
 title:  "Process - Install Bacula Client from apt-get - Ubuntu/Debian"
 date:   2018-04-15
+last_updated: 2018-04-15
 ---
 
 <h2 id="bkmrk-ubuntu" class="sectionedit8">Ubuntu 16.04</h2>

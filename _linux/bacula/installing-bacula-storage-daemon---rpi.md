@@ -2,6 +2,7 @@
 layout: post
 title:  "Process - Install Bacula Storage Daemon - Raspberry Pi / Debian based systems"
 date:   2018-04-15
+last_updated: 2018-04-15
 ---
 
 <h1 id="bkmrk-installing-storage-d" class="sectionedit11">Installing Storage Daemon</h1>
