@@ -2,7 +2,7 @@
 layout: page_layout
 title:  "Website"
 ---
-<table border="1">
+<table border="1" padding-left="10px">
   <tr>
     <td>
     <h2>
